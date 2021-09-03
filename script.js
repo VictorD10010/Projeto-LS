@@ -89,4 +89,9 @@ function convmedidas(f){
   }else if  (i5==1 && i7==3){
     i8.innerHTML=`${(medida.map((value) => value / 100000))}km`; 
   }
+  
+  /*Se o numero for negativo,ficará "Resultado"*/
+  if(valor<0){
+    document.getElementById('i8').innerHTML=  'Resultado';
+  }
 }
