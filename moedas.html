@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Moedas</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body class='paginamoedas'>
+    <a href='index.html'>
+      <h1>Voltar</h1>
+    </a>
+    <div class='input'>
+      <form>
+        <select name="i2" id ="i2" onchange="convmoedas(event)" width="500">
+          <option value=0>Dólar americano(USD)</option>
+          <option value=1>Real(BRL)</option>
+          <option value=2>Euro(EUR)</option>
+          <option value=3>Iene(JPY)</option>
+        </select>
+        <p><input type='number' name='input1' id='input1' placeholder='Valor' oninput="convmoedas(event)"></p>
+        <select name="i3" id ="i3" onchange="convmoedas(event)">
+          <option value=0>Dólar americano(USD)</option>
+          <option value=1>Real(BRL)</option>
+          <option value=2>Euro(EUR)</option>
+          <option value=3>Iene(JPY)</option>
+        </select>
+        <p id='i4'>Resultado‏‏‎</p>
+      </form>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

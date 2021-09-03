@@ -1,0 +1,140 @@
+/*Titulo da pagina principal*/
+.conversor{
+  text-align: center;
+  color: whitesmoke;
+  font-size: 75px;
+}
+/*Seleção de texto*/
+::selection{
+  background-color: whitesmoke;
+  color: #191970;
+}
+/*Body da pagina principal*/
+body{
+  background-color: #191970;
+}
+/*Grid da pagina principal*/
+.grid-container{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 50px;
+  animation: moedas 1s;
+}
+/*Grid da aba moedas na pagina principal*/
+.grid-moedas{
+  text-align: center;
+  font-size: 35px;
+  margin: 0px;
+  color: whitesmoke;
+  border: 5px solid whitesmoke;
+  border-radius: 50px;
+  padding: 100px;
+  animation: moedas 2s;
+}
+.grid-moedas:hover{
+  background-color: whitesmoke;
+  color: #191970;
+}
+/*Remover o sublinhado dos links da pagina principal*/
+div a{
+  text-decoration-line: none;
+}
+/*Grid da aba medidas na pagina principal*/
+.grid-comprimento{
+  text-align: center;
+  margin: 0px;
+  font-size: 35px;
+  color: whitesmoke;
+  border: 5px solid whitesmoke;
+  padding: 100px;
+  border-radius: 50px;
+}
+.grid-comprimento:hover{
+  background-color: whitesmoke;
+  color: #191970;
+}
+/*Body da pagina de moedas*/
+.paginamoedas{
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url('money-gety-2.jpg');
+  zoom: 250%;
+}
+/*Div da pagina de moedas*/
+.input{
+  text-align: center;
+  border: unset;
+  border-radius: 50px;
+}
+/*Caixa do resultado na pagina de moedas*/
+#i4{
+  border: unset; 
+  background-color: gainsboro;
+  text-decoration: none;
+  color: black;
+  margin-right: 179px;
+  margin-left: 179px;
+  text-align: right;
+  box-shadow: 0 1px 1px gold;
+  border-radius: 3px;
+}
+/*Primeiro link na pagina de moedas*/
+.paginamoedas a:first-child{
+  text-decoration: none;
+  color: whitesmoke;
+  font-size: 5px;
+}
+/*Icones da pagina principal*/
+i{
+  color: whitesmoke;
+  text-decoration: none;
+  font-size: 25px;
+  margin-top: 50px;
+}
+i:hover{
+  font-size: 28px;
+}
+/*Select da pagina de moedas e pagina de medidas*/
+select{
+  width: 173px;
+  color: grey;
+  box-shadow: 0 1px 1px gold;
+  border: unset;
+}
+/*Input do valor na pagina de moedas*/
+#input1{
+  box-shadow: 0 1px 1px gold;
+  border: unset;
+  width: 170px;
+}
+/*Body da pagina de medidas*/
+.paginamedidas{
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url('medição2.jpg');
+  zoom: 250%;
+}
+/*Primeiro link da pagina de medidas*/
+.paginamedidas a:first-child{
+  text-decoration: none;
+  color: whitesmoke;
+  font-size: 5px;
+}
+/*Caixa do resultado da pagina de medidas*/
+#i8{
+  border: unset; 
+  background-color: gainsboro;
+  text-decoration: none;
+  color: black;
+  margin-right: 179px;
+  margin-left: 179px;
+  text-align: right;
+  box-shadow: 0 1px 1px gold;
+  border-radius: 3px;
+}
+/*Input do valor da pagina de medidas*/
+#input6{
+  box-shadow: 0 1px 1px gold;
+  border: unset;
+  width: 170px;
+}
